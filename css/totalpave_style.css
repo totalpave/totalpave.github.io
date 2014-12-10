@@ -521,7 +521,8 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 a:hover .social-icon-fb {
-    background: url('../images/social-icon-fb-over.png') no-repeat;
+    transition: all 0.25s ease 0s;
+	background: url('../images/social-icon-fb-over.png') no-repeat;
 }
 
 .social-icon-rss {
@@ -532,7 +533,9 @@ a:hover .social-icon-fb {
 }
 
 a:hover .social-icon-rss {
+	transition: all 0.25s ease 0s;
     background: url('../images/social-icon-rss-over.png') no-repeat;
+	
 }
 
 .social-icon-twitter {
@@ -543,6 +546,7 @@ a:hover .social-icon-rss {
 }
 
 a:hover .social-icon-twitter {
+	transition: all 0.25s ease 0s;
     background: url('../images/social-icon-twitter-over.png') no-repeat;
 }
 
@@ -554,6 +558,7 @@ a:hover .social-icon-twitter {
 }
 
 a:hover .social-icon-linkedin {
+	transition: all 0.25s ease 0s;
     background: url('../images/social-icon-linkedin-over.png') no-repeat;
 }
 
@@ -565,6 +570,7 @@ a:hover .social-icon-linkedin {
 }
 
 a:hover .social-icon-dribbble {
+	transition: all 0.25s ease 0s;
     background: url('../images/social-icon-dribbble-over.png') no-repeat;
 }
 
@@ -576,6 +582,7 @@ a:hover .social-icon-dribbble {
 }
 
 a:hover .icon-email {
+	transition: all 0.25s ease 0s;
     background: url('../images/icon-email-over.png') no-repeat;
 }
 	
