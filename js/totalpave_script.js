@@ -55,6 +55,31 @@ jQuery(function($) {
             $(this).blur();
             return false;
         });
+		
+		//scroll to totalpave-contact when click on demo request buttons
+		$('#btn-contact').click(function(e){
+            e.preventDefault(); 
+            var linkId = $(this).attr('href');
+            scrollTo(linkId);
+            if($('.navbar-toggle').is(":visible") == true){
+                $('.navbar-collapse').collapse('toggle');
+            }
+            $(this).blur();
+            return false;
+        });
+
+		//scroll to totalpave-contact when click on demo request buttons
+		$('#btn-second-contact').click(function(e){
+            e.preventDefault(); 
+            var linkId = $(this).attr('href');
+            scrollTo(linkId);
+            if($('.navbar-toggle').is(":visible") == true){
+                $('.navbar-collapse').collapse('toggle');
+            }
+            $(this).blur();
+            return false;
+        });
+
 
         // to stick navbar on top
         $('.totalpave-top-menu ').stickUp();
