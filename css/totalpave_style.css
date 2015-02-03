@@ -458,12 +458,12 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 .totalpave-contact-map {
     margin-bottom: 15px;
-    height: 1000px;
+    height: 500px;
 
 }
 
 .head_contact {
-    padding-bottom:80px; 
+    padding-bottom:70px; 
     margin-bottom:0;
 }
 
