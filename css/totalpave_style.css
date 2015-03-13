@@ -322,8 +322,9 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .member-thumb {
-    position: relative;
-    overflow: hidden;
+	position: relative;
+	overflow: hidden;
+	left: 0%;
 }
 
 .member-thumb .thumb-overlay {
@@ -363,11 +364,19 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     margin-left:-50px;
     margin-top:70px;
 }
-
-.row_team li {
-    list-style: none;
+@media (max-width: 1000px) {
+	.row_team li {
+		list-style: none;
+		left: 0%;
+	}
 }
 
+@media (min-width: 1000px) {
+	.row_team li {
+	list-style: none;
+	left: 15%;
+	}
+}
 .totalpave-project-box {
     background-size: cover;
     position: relative;
