@@ -117,17 +117,17 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     }
 }
 
-/*@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     #totalpave-carousel .carousel-caption h1 {
         margin-bottom: 10px;
         line-height: 1.1;
         font-size: 35px;
     }
 }
-*/
-@media (min-width:550px) and max-width: 768px) {
+
+@media (max-width: 768px) {
     #totalpave-carousel .carousel-caption h1 {
-		margin-bottom: 10px;
+        margin-bottom: 10px;
         line-height: 1.1;
         font-size: 35px;
     }
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     }
 }
 
-@media (min-width:450px) and (max-width: 550px) {
+@media (max-width: 550px) {
     #totalpave-carousel .carousel-caption h1 {
         margin-bottom: 10px;
         line-height: 1.1;
