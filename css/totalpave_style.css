@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     top: 0;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     #totalpave-carousel .carousel-caption p {
         margin-bottom: 20px;
         line-height: 1.4;
@@ -101,13 +101,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
         padding-bottom: 140px;
         right: 20%;
         left: 20%;
-    }
-}
-
-@media (max-width: 769px) {
-    #totalpave-carousel .carousel-caption {
-        padding-bottom: 120px;
-		font-size:15px;
     }
 }
 
@@ -132,13 +125,46 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    #totalpave-carousel .carousel-caption h1 {
+        margin-bottom: 10px;
+        line-height: 1.1;
+        font-size: 35px;
+    }
+	#totalpave-carousel .carousel-caption p{
+		margin-bottom: 50px;
+		font-size: 22px;
+    }
+}
+
+@media (max-width: 550px) {
+    #totalpave-carousel .carousel-caption h1 {
+        margin-bottom: 10px;
+        line-height: 1.1;
+        font-size: 35px;
+    }
+	#totalpave-carousel .carousel-caption p{
+		margin-bottom: 50px;
+		font-size: 16px;
+    }
+}
+
+
+@media (max-width: 450px) {
     #totalpave-carousel .carousel-caption h1 {
         margin-bottom: 10px;
         line-height: 1.1;
         font-size: 30px;
     }
+	#totalpave-carousel .carousel-caption p{
+		margin-bottom: 30px;
+		font-size: 16px;
+    }
+	#totalpave-carousel .btn-lg {
+		margin-bottom: 20px;	
+	}
 }
+
 
 /* ------ End of Carousel ----- */
 
@@ -736,8 +762,9 @@ ul.totalpave-project-gallery  li  a img:hover {
     }
     .totalpave-btn-read-more {
             float:right;
-            margin-bottom :40px; 
+            margin-bottom : px; 
       }
+	  
 }
 
 @media (max-width: 380px) {
@@ -764,7 +791,7 @@ ul.totalpave-project-gallery  li  a img:hover {
 
 @media (min-width:683px) and ( max-width: 991px) {
 	 .team_hr {
-		width: 25%;
+		width: 29%;
 	}
 }
 
@@ -786,13 +813,14 @@ ul.totalpave-project-gallery  li  a img:hover {
 
 @media  (min-width:410px) and  ( max-width: 536px) {
 	 .team_hr {
-		width: 18%;
+		width: 20%;
 	}
+	
 }
 
 @media  ( max-width: 410px) {
 	 .team_hr {
-		width: 13%;
+		width: 19%;
 	}
 }
 
