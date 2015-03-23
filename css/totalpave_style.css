@@ -127,7 +127,6 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 */
 @media (min-width:550px) and max-width: 768px) {
     #totalpave-carousel .carousel-caption h1 {
-        padding-top: 1000px;
 		margin-bottom: 10px;
         line-height: 1.1;
         font-size: 35px;
