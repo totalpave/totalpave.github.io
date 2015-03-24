@@ -158,7 +158,7 @@ function scrollTo(selectors)
 
 // Fade in from the left effect for totalpave-service
 
-jQuery(document).ready(function() {
+/*jQuery(document).ready(function() {
 	jQuery('#totalpave-carousel').addClass('hideme').viewportChecker({
 		classToAdd: 'visible animated fadeIn',
 		offset: 100
@@ -188,8 +188,8 @@ jQuery(document).ready(function() {
 		offset: 100
 	});
 	
-});
-
+}); */
+ 
 
 
 
