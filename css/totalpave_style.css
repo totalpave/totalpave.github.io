@@ -165,6 +165,22 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 	}
 }
 
+@media (max-width: 380px) {
+    #totalpave-carousel .carousel-caption h1 {
+        margin-bottom: 10px;
+        line-height: 1.1;
+        font-size: 25px;
+    }
+	#totalpave-carousel .carousel-caption p{
+		margin-bottom: 20px;
+		font-size: 13px;
+    }
+	#totalpave-carousel .btn-lg {
+		margin-bottom: 20px;	
+	}
+}
+
+
 
 /* ------ End of Carousel ----- */
 
@@ -820,7 +836,7 @@ ul.totalpave-project-gallery  li  a img:hover {
 
 @media  (min-width:380px) and max-width: 410px) {
 	 .team_hr {
-		width: 18%;
+		width: 19%;
 	}
 }
 
