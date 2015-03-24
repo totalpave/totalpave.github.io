@@ -818,7 +818,13 @@ ul.totalpave-project-gallery  li  a img:hover {
 	
 }
 
-@media  ( max-width: 410px) {
+@media  (min-width:380px) and max-width: 410px) {
+	 .team_hr {
+		width: 18%;
+	}
+}
+
+@media  ( max-width: 380px) {
 	 .team_hr {
 		width: 15%;
 	}
