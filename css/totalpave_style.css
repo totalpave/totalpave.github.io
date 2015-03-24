@@ -549,7 +549,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .social-icon-fb {
-	background: url('../images/social-icon-fb.png') no-repeat;
+	background: url('../images/social-icon-fb.svg') no-repeat;
 	width: 42px;
 	height: 42px;
 	display: block;
@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 a:hover .social-icon-fb {
     transition: all 0.25s ease 0s;
-	background: url('../images/social-icon-fb-over.png') no-repeat;
+	background: url('../images/social-icon-fb-over.svg') no-repeat;
 }
 
 .social-icon-rss {
