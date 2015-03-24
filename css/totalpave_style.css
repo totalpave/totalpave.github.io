@@ -574,7 +574,7 @@ a:hover .social-icon-rss {
 }
 
 .social-icon-twitter {
-    background: url('../images/social-icon-twitter.png') no-repeat;
+    background: url('../images/social-icon-twitter.svg') no-repeat;
     width: 42px;
     height: 42px;
     display: block;
@@ -582,11 +582,11 @@ a:hover .social-icon-rss {
 
 a:hover .social-icon-twitter {
 	transition: all 0.25s ease 0s;
-    background: url('../images/social-icon-twitter-over.png') no-repeat;
+    background: url('../images/social-icon-twitter-over.svg') no-repeat;
 }
 
 .social-icon-linkedin {
-    background: url('../images/social-icon-linkedin.png') no-repeat;
+    background: url('../images/social-icon-linkedin.svg') no-repeat;
     width: 42px;
     height: 42px;
     display: block;
@@ -594,7 +594,7 @@ a:hover .social-icon-twitter {
 
 a:hover .social-icon-linkedin {
 	transition: all 0.25s ease 0s;
-    background: url('../images/social-icon-linkedin-over.png') no-repeat;
+    background: url('../images/social-icon-linkedin-over.svg') no-repeat;
 }
 
 .social-icon-dribbble {
@@ -610,7 +610,7 @@ a:hover .social-icon-dribbble {
 }
 
 .icon-email {
-	background: url('../images/icon-email.png') no-repeat;
+	background: url('../images/icon-email.svg') no-repeat;
 	width: 42px;
 	height: 42px;
 	display: block;
@@ -618,7 +618,7 @@ a:hover .social-icon-dribbble {
 
 a:hover .icon-email {
 	transition: all 0.25s ease 0s;
-    background: url('../images/icon-email-over.png') no-repeat;
+    background: url('../images/icon-email-over.svg') no-repeat;
 }
 	
 	display: block;

@@ -135,7 +135,7 @@ var mapType = new google.maps.StyledMapType(stylez, { name:"Grayscale" });
 map.mapTypes.set('tehgrayz', mapType);
 map.setMapTypeId('tehgrayz');
 
-var image = 'images/custom-marker.png';
+var image = 'images/custom-marker.svg';
 var marker = new google.maps.Marker({
     position: myLatlng,
     title:"TotalPave, 8 Garland Court (Enterprise UNB Building #1",
