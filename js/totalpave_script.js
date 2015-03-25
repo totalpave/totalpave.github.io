@@ -156,6 +156,12 @@ function scrollTo(selectors)
 
 }
 
+if(!Modernizr.svg) {
+    $('img[src*="svg"]').attr('src', function() {
+        return $(this).attr('src').replace('.svg', '.png');
+    });
+}
+
 // Fade in from the left effect for totalpave-service
 
 /*jQuery(document).ready(function() {
