@@ -171,7 +171,7 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 	}
 }
 
-@media (max-width: 400px){
+@media (max-width: 441px){
 	#btn-read-more {
 		margin-left: 20px;
 	}	
@@ -841,7 +841,7 @@ ul.totalpave-project-gallery  li  a img:hover {
 
 @media  (min-width:410px) and  ( max-width: 536px) {
 	 .team_hr {
-		width: 21%;
+		width: 20%;
 	}
 	
 }

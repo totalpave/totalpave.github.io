@@ -113,6 +113,7 @@ function initialize() {
 	var mapOptions = {
   		zoom: 17,
   		center: myLatlng,
+		draggable: false,
 		scrollwheel: false,
 		mapTypeControlOptions: {
          mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'tehgrayz']
