@@ -6390,7 +6390,7 @@ button.close {
 }
 
 .carousel-control {
-	visibility: hidden;
+  visibility: hidden;
   position: absolute;
   top: 0;
   bottom: 0;

@@ -67,14 +67,14 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 /* ------ Carousel ----- */
 
 #totalpave-carousel {
-    background: url('../images/totalpave_carousel_bg.jpg') no-repeat center center fixed; 
+    background: url('../images/carousel-portal-big.svg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden;
     margin-bottom:0;
-    height: 500px;
+    height: 600px;
 }
 
 #totalpave-carousel .carousel-caption h1 {
@@ -102,17 +102,23 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
         line-height: 1.4;
         font-size: 21px;
     }
+	
+	/*#totalpave-carousel .carousel-caption h1 {
+        margin-bottom: 50px;
+		margin-top: 20px;
+    }*/
+
 
     #totalpave-carousel .carousel-caption {
         padding-bottom: 115px;
-        right: 20%;
-        left: 20%;
+        right: 6%;
+        left: 50%;
     }
 }
 
 @media (max-width: 1024px) {
     #totalpave-carousel {
-        background: url('../images/totalpave_carousel_bg_s.jpg') no-repeat center center; 
+        background: url('../images/carousel-portal-big.svg') no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -123,16 +129,28 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/*@media (min-width: 768px) and (max-width: 1024px) {
     #totalpave-carousel .carousel-caption h1 {
         margin-bottom: 10px;
         line-height: 1.1;
         font-size: 35px;
     }
-}
+	
+}*/
 
 @media (max-width: 767px) {
-    #totalpave-carousel .carousel-caption h1 {
+    #totalpave-carousel {
+        background: url('../images/carousel-portal-small.svg') no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow-x: hidden;
+        margin-bottom:0;
+        height: 500px;
+    }
+	
+	#totalpave-carousel .carousel-caption h1 {
 		margin-bottom: 10px;
         line-height: 1.1;
         font-size: 35px;
@@ -141,10 +159,24 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 		margin-bottom: 50px;
 		font-size: 22px;
     }
+	
+	#totalpave-carousel .carousel-caption {
+		margin-bottom: 115px;
+		/*padding-bottom: 115px;*/
+		/*background: url('../images/caption-background.svg');
+    	background-size: 100% 100%;*/
+		background-color:rgba(0, 0, 0, 0.5);
+		background-size: 100px 100px;
+    }
+	
 }
 
 @media (max-width: 550px) {
-    #totalpave-carousel .carousel-caption h1 {
+    #totalpave-carousel .carousel-caption {
+		margin-bottom: 70px;
+	}
+	
+	#totalpave-carousel .carousel-caption h1 {
         margin-bottom: 10px;
         line-height: 1.1;
         font-size: 35px;
