@@ -77,7 +77,7 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
     height: 600px;
 }
 
-#totalpave-carousel .no-svg {
+.no-svg #totalpave-carousel {
     background: url('../images/carousel-portal-big.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -139,7 +139,7 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
         height: 500px;
     }
 	
-	#totalpave-carousel .no-svg {
+	.no-svg #totalpave-carousel {
     background: url('../images/carousel-portal-big.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,7 +172,7 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
         height: 500px;
     }
 	
-	#totalpave-carousel .no-svg {
+	.no-svg #totalpave-carousel {
     background: url('../images/carousel-portal-small.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
