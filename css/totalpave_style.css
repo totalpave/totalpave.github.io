@@ -493,7 +493,7 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 @media (min-width: 1000px) {
 	.row_team li {
 	list-style: none;
-	left: 15%;
+	left: 0%;
 	}
 }
 .totalpave-project-box {
