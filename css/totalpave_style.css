@@ -610,9 +610,10 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 }
 
 .twitter_user {
-	color: #FFFF33; 
+	color: #F8F8F8;
 	font-size: 14px;
 	float: right;
+	font-weight: bolder;
 }
 
 .totalpave-partners {
