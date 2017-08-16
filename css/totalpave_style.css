@@ -276,7 +276,6 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 }
 
 .totalpave-service {
-    margin-bottom: 100px;
     margin-top: 100px;
 }
 
@@ -617,7 +616,6 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 }
 
 .totalpave-partners {
-	border-top: 2px solid #cccccc;
 }
 
 .totalpave-partners .totalpave-partner-item {
