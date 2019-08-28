@@ -276,6 +276,10 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 }
 
 .totalpave-service {
+<<<<<<< Updated upstream
+=======
+    margin-bottom: 0px;
+>>>>>>> Stashed changes
     margin-top: 100px;
 }
 
@@ -615,7 +619,12 @@ p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 	font-weight: bolder;
 }
 
+<<<<<<< Updated upstream
 .totalpave-partners {
+=======
+#totalpave-partners {
+	
+>>>>>>> Stashed changes
 }
 
 .totalpave-partners .totalpave-partner-item {
